@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+
     <title>Tennis World</title>
+
     <style></style>
   </head>
 
@@ -16,16 +19,20 @@
 
 
 
-    <form class="color" name="f">
-      <input type="text" name="a" onkeyup="myFunction()" />
-    </form>
+    <div class="div-cambia-fondo">
+      
+      <form class="color" name="f">
+       <label class="label-cambia-fondo" for="a">Color del Fondo</label><br>
+       <input type="text" name="a" onkeyup="myFunction()" />
+      </form>
 
-    <script>
-      var a = "blue";
-      function myFunction() {
+      <script>
+       var a = "blue";
+       function myFunction() {
         document.body.style.backgroundColor = f.a.value;
-      }
-    </script>
+       }
+      </script>
+    </div>
 
 
   </body>
